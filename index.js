@@ -72,7 +72,7 @@
             
             // console.log('model loaded: ', minX, minY, maxX - minX, maxY - minY)
 
-               img.onload = () => {          context.drawImage(img, 0, 0);  };
+               img.onload = () => {          context.drawImage(img, minX, minY);  };
             
             context.rect(minX, minY, maxX - minX, maxY - minY);
             // context.rect(100, 100, 100,100);
