@@ -19,7 +19,7 @@
   const status = document.getElementById("status");
   const context = canvas.getContext("2d");
   const img = new Image();    
-  img.src = 'shoe.png';  
+  img.src =  './shoe.png';;  
   canvas.width = document.body.clientWidth; //document.width is obsolete
   canvas.height = document.body.clientHeight; //document.height is obsolete
   video.width = document.body.clientWidth; //document.width is obsolete
